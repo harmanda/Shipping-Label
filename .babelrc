@@ -1,0 +1,13 @@
+{
+  "presets": [ "es2015", "stage-2", "react" ],
+  "plugins": [
+    [ "resolver", { "resolveDirs": ["src/js", "__tests__", "public"] }],
+  	"transform-runtime",
+    "transform-object-rest-spread"
+  ],
+  "env": {
+    "development": {
+      "presets": ["react-hmre"]
+    }
+  }
+}

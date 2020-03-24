@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.formClass {
+  width: 40%
+}
+
+#progressBarContainer {
+  width: 40%;
+  background-color: #ddd;
+  border-radius: 20px;
+}
+
+#progressBar { 
+  height: 20px;
+  background-color: #7D4CDB;
+  text-align: center;
+  line-height: 20px;
+  color: white;
+  border-radius: 20px;
+}
+
+
